@@ -43,6 +43,14 @@
   height: 60vh;
   border: solid RED 3px;
 }
+/* About Section */
+.about-container {
+  height: 100vh;
+}
+.banner {
+  height: 20rem;
+  background: url("/images/about-banner.avif") no-repeat center center/cover;
+}
 /* Footer */
 .footer-cont {
   display: flex;
