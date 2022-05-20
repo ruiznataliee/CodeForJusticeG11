@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.primary-text {
+  color: #60d394;
+}
+.first-letter {
+  color: #60d394;
+  font-size: 3rem;
+}
+/* Navigation */
+.navbar {
+  background-color: #60d394;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left-side {
+  padding-left: 10%;
+}
+.nav-left-side img {
+  height: 120px;
+  padding-left: 10%;
+}
+.nav-right-side {
+  display: flex;
+  padding-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.nav-right-side ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav-right-side ul li {
+  margin: 15px;
+  list-style: none;
+}
+.nav-right-side ul li a {
+  text-decoration: none;
+  color: rgb(46, 54, 72);
+}
+
+/* contact form */
+.form-container {
+  width: 100;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+form,
+.form-right {
+  width: 50%;
+  height: 120vh;
+}
+
+form {
+  background-color: #ffd97d;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content {
+  width: 390px;
+  display: inline-block;
+}
+
+.form-content h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 40px;
+}
+input,
+textarea {
+  border-radius: 10px;
+  border: none;
+  width: 387px;
+  margin-bottom: 1rem;
+  padding: 0.8rem 0.5rem;
+}
+
+textarea {
+  height: 311px;
+  resize: none;
+}
+
+.form-right {
+  display: grid;
+  place-content: center;
+}
+
+.right-content {
+  width: 500px;
+  display: inline-block;
+}
+
+.right-content p {
+  margin-bottom: 2rem;
+
+  font-size: 18px;
+}
+
+.right-content img {
+  display: block;
+  width: 350px;
+  text-align: center;
+
+  margin: 0 auto 6rem auto;
+}
+/* Footer */
+.footer-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  background-color: #60d394;
+  padding-bottom: 30px;
+}
+.left-side {
+  padding-left: 10%;
+}
+.left-side p {
+  color: #fff;
+}
+.right-side {
+  display: flex;
+  height: 170px;
+  padding-right: 10%;
+  justify-content: center;
+  align-items: flex-end;
+}
+.right-side ul {
+  display: flex;
+  flex-direction: row;
+}
+.right-side ul li {
+  margin: 20px;
+  list-style: none;
+}
+.right-side ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.fa-brands {
+  font-size: 1rem;
+  color: rgb(46, 54, 72);
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
