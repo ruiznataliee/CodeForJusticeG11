@@ -48,7 +48,7 @@
 }
 .section {
   height: 60vh;
-  border: solid RED 3px;
+  /* border: solid RED 3px; */
 }
 /* About Section */
 .about-container {
