@@ -1,59 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/cc1a723176.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>BetterMind</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <!-- <div class="container"> -->
-        <div class="nav-left-side">
-          <a href="index.html"
-            ><img src="/images/bettermindLogo.png" alt="logo" class="logo"
-          /></a>
-        </div>
-        <div class="nav-right-side">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <!-- </div> -->
-        </div>
-      </nav>
-    </header>
 
-    <div class="section"></div>
-    <footer>
-      <div class="footer-cont">
-        <div class="left-side">
-          <a href="index.html"
-            ><img
-              src="/images/bettermindLogo.png"
-              alt="logo"
-              class="logo"
-              height="120px"
-          /></a>
-          <p class="copyright">Copyright &copy; BetterMind</p>
-        </div>
-        <div class="right-side">
-          <ul>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/cc1a723176.js" crossorigin="anonymous"></script>
+
+  <title>BetterMind</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <!-- <div class="container"> -->
+      <div class="nav-left-side">
+        <a href="index.html"><img src="/images/bettermindLogo.png" alt="logo" class="logo" /></a>
+      </div>
+      <div class="nav-right-side">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- </div> -->
+      </div>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <div class="content">
+      <h1>BetterMind</h1>
+      <br>
+      <p> Life. It can be challenging and overwhelming at times. But here at BetterMind, we offer support in the way of
+        community resources and a listening ear. </p>
+      <br>
+      <div>
+        <button id="button">Seek Help</button>
+
+        <script type="text/javascript">
+          document.getElementById("button").onclick = function () {
+            location.href = "http://127.0.0.1:5500/services.html";
+          };
+        </script>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="section">
+    <div>
+      <h1>Our Services</h1>
+
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="card">
+        <div class="image"> <img src="images/ESA.webp" alt="Service Animal"> </div>
+
+        <div class="title">Emotional Support Animal Assistance</div>
+        <br>
+
+
+        <div>
+          <button id="cardbutton">More Details</button>
+
+          <script type="text/javascript">
+            document.getElementById("cardbutton").onclick = function () {
+              location.href = "http://127.0.0.1:5500/services.html";
+            };
+          </script>
         </div>
       </div>
-    </footer>
-  </body>
+
+
+
+      <div class="card">
+
+        <div class="image"><img src="images/walk.jpeg" alt="group walk"> </div>
+
+        <div class="title">Group Walk</div>
+        <br>
+        <br>
+        <div>
+          <button id="cardbutton">More Details</button>
+          <script type="text/javascript">
+            document.getElementById("cardbutton").onclick = function () {
+              location.href = "http://127.0.0.1:5500/services.html";
+            };
+          </script>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+
+        <div class="image"><img src="images/Counseling.jpeg" alt="Counseling"> </div>
+
+        <div class="title">Counseling</div>
+
+        <br>
+        <br>
+        <div>
+          <button id="cardbutton">More Details</button>
+
+          <script type="text/javascript">
+            document.getElementById("cardbutton").onclick = function () {
+              location.href = "http://127.0.0.1:5500/services.html";
+            };
+          </script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer>
+    <div class="footer-cont">
+      <div class="left-side">
+        <a href="index.html"><img src="/images/bettermindLogo.png" alt="logo" class="logo" height="120px" /></a>
+        <p class="copyright">Copyright &copy; BetterMind</p>
+      </div>
+      <div class="right-side">
+        <ul>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
