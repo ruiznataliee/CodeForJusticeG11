@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>BetterMind</title>
+  <link href="services.css" rel="stylesheet" type="text/css" />
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script type="text/javascript">
+      src="https://kit.fontawesome.com/cc1a723176.js"
+      crossorigin="anonymous";
+
+
+let popUp = document.getElementById("popUp");
+
+function openPopUp(){
+  popUp.classList.add("open-popUp");
+}
+function closePopUp(){
+  popUp.classList.remove("open-popUp");
+}
+
+ let signUp=document.getElementById("walkSign");
+
+function signUp(){
+  walkSign.classList.add("signUppopUp");
+
+}
+function closesignUp(){
+
+  walkSign.classList.remove("signUppopUp");
+}
+    
+</script>
+
+    <title>BetterMind</title>
+  </head>
+
+
+
+  <body>
+    <!-- Navigation -->
+    
+    <header>
+      
+      <nav class="navbar">
+    
+        <div class="nav-left-side">
+          <a href="index.html"
+            ><img src="bettermindLogo.png" alt="logo" class="logo"
+           
+          /></a> 
+        </div>
+        <div class="nav-right-side">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+
+
+
+<!-- /////////////////// -->
+  
+
+
+<div class="centering">
+
+
+<div class="box">
+
+<section id="mainSer">
+
+<h2> Our Services</h2>
+
+<p> BetterMind is committed to being there for you. As a non-profit our sole purpose is to provide mental health services
+  for young adults in our community and beyond. We hope you can find something here, at Bettermind.
+</p>
+
+</section>
+
+<aside>
+<img src="mainpicS.png" id="mainImage" alt="errorloading">
+</aside>
+
+
+</div>
+
+
+<div class="box">
+
+  <aside class="alignPic1">
+    <img id="walkImage" src="feetWalk.jpg" alt="errorloading">
+    </aside>
+
+<section id="walkServices" >
+
+<h4> Group Walk</h4>
+<p>
+Let's stay hydrated and get that vitamin D together! 
+Sign up for our group walk all you need to bring is yourself 
+We will provide water, a snack, and a walking partner (optional). 
+Come as you are this is a judgement free zone, we are just happy to see you :)
+</p>
+<!-- <button class="walkSignUp"> Sign Up </button> -->
+
+<input type="button" id="walkSign" value="Sign Up" onclick="signUp()"/>
+
+<div class="signUppopUp">
+  <form>
+
+    <input type="checkbox" id="dayForm" name="day1" value="Monday">
+ <label for="day1"> Monday </label><br>
+ <input type="checkbox" id="dayForm" name="day2" value="Wednesday">
+ <label for="day2"> Wednesday </label><br>
+ <input type="checkbox" id="dayForm" name="day3" value="Saturday">
+ <label for="day3"> Saturday </label><br>
+ 
+     <button type="submit">Submit</button>
+   </form>
+
+</div>
+</section>
+
+</div>
+
+
+
+
+<div class="box">
+
+<section id="therapyServices" >
+
+<h4> Counseling services </h4>
+<p>
+Do you need someone to talk to? Do you need personal advice?
+Our expert professionals are here for you.
+
+</p>
+<button class="counselSchedule" onclick="openPopUp()"> Schedule your meeting </button>
+<div class="popUp" id="popUp">
+
+<h2> Schedule here</h2>
+<p>your appointment with a licensed professional</p>
+
+<div id="calendar">
+<div class="month">
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>May<br><span style="font-size:18px">2022</span></li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li><span class="active">10</span></li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+</div>
+ <button id="closepopButton" type="button" onclick="closePopUp"> Done </button>
+
+</div>
+</section>
+
+
+
+</section>
+
+
+<aside>
+<img  id="rockImage" src="tranquil.jpg" alt="errorloading">
+</aside>
+
+</div>
+
+
+
+
+
+<div class="box">
+
+  <aside class="alignPic1">
+    <img id="pugImage" src="puginaBlanket.jpg" alt="errorloading">
+   
+    </aside>
+
+    
+<section id="animalServices" >
+<h4>Emotional Support Animal Assistance</h4>
+
+<p>
+We offer assistance with aquiring a furry friend to aid your life journey. 
+Fill out our questionaire so we can get a better understanding of your situation.
+Then visit us at our location
+</p>
+ 
+<button class="animalSupport"> I'm interested </button>
+</section>
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+      <div class="footer-cont">
+        <div class="left-side">
+          <a href="index.html"
+            ><img
+              src="bettermindLogo.png"
+              alt="logo"
+              class="logo"
+              height="120px"
+          /></a>
+          <p class="copyright">Copyright &copy; BetterMind</p>
+        </div>
+        <div class="right-side">
+          <ul>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
