@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   background-color: darkseagreen;
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+.api-container {
   text-align: center;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 #getArticles {
   width: 10rem;
@@ -17,4 +24,16 @@
 
 #title {
   font-size: 18px;
+}
+#getArticles {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(96, 211, 148);
+  border: white;
+}
+
+a {
+  text-decoration: none;
 }
