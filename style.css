@@ -9,7 +9,6 @@
   padding: 0 10%;
 }
 
-
 .primary-text {
   color: #60d394;
 }
@@ -57,12 +56,9 @@
 }
 
 .section {
-
   height: 80vh;
-  border: solid RED 3px;
 
   height: 60vh;
-  /* border: solid RED 3px; */
 }
 /* About Section */
 .about-container {
@@ -110,7 +106,6 @@
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 20px;
-
 }
 
 /* Footer */
@@ -161,9 +156,6 @@
   border-radius: 50%;
   padding: 10px;
   margin: 10px;
-
-}
-
 }
 
 @media (max-width: 768px) {
@@ -252,4 +244,3 @@
     padding: 0px 0px 20px 0px;
   }
 }
-

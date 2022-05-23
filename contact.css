@@ -100,7 +100,7 @@ textarea {
 
 .right-content p {
   margin-bottom: 2rem;
-  text-align: ;
+  text-align: center;
   font-size: 18px;
 }
 
@@ -178,7 +178,7 @@ textarea {
     border: none;
     width: 90%;
     margin-bottom: 1rem;
-    /* padding: 0.8rem 0.5rem; */
+    padding: 0.8rem 0.5rem;
   }
   .right-content p {
     text-align: center;
