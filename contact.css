@@ -46,7 +46,7 @@
 
 /* contact form */
 .form-container {
-  width: 100%;
+  width: 100;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -152,38 +152,4 @@ textarea {
   border-radius: 50%;
   padding: 10px;
   margin: 10px;
-}
-
-@media (max-width: 900px) {
-  .form-container {
-    flex-direction: column;
-  }
-  form,
-  .form-right {
-    width: 100%;
-    height: 70vh;
-  }
-  .form-content {
-    padding-left: 2.4rem;
-    justify-content: center;
-    align-items: center;
-  }
-  .form-content h2 {
-    padding-right: 3.5rem;
-  }
-
-  input,
-  textarea {
-    border-radius: 10px;
-    border: none;
-    width: 90%;
-    margin-bottom: 1rem;
-    /* padding: 0.8rem 0.5rem; */
-  }
-  .right-content p {
-    text-align: center;
-  }
-  .right-content img {
-    width: 18rem;
-  }
 }
