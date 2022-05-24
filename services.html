@@ -15,32 +15,10 @@
     <!-- <link rel="stylesheet" href="styleapi.css"> -->
 
 
-    <script type="text/javascript">
-      src="https://kit.fontawesome.com/cc1a723176.js"
-      crossorigin="anonymous";
-
-
-let popUp = document.getElementById("popUp");
-
-function openPopUp(){
-  popUp.classList.add("open-popUp");
-}
-function closePopUp(){
-  popUp.classList.remove("open-popUp");
-}
-
- let signUp=document.getElementById("walkSign");
-
-function signUp(){
-  walkSign.classList.add("signUppopUp");
-
-}
-function closesignUp(){
-
-  walkSign.classList.remove("signUppopUp");
-}
+   
     
 </script>
+
 
     <title>BetterMind</title>
   </head>
@@ -152,10 +130,10 @@ Come as you are this is a judgement free zone, we are just happy to see you :)
       Do you need someone to talk to? Do you need personal advice?
       Our expert professionals are here for you.
     </p>
-    <button class="counselSchedule" onclick="openPopUp()"> Schedule your meeting </button>
+    <button class="counselSchedule" id="test"onclick="openPopUp()"> Schedule your meeting </button>
   <div class="popUp" id="popUp">
-    <h2> Schedule here</h2>
-    <p>your appointment with a licensed professional</p>
+    <h2> Schedule</h2>
+    <p>Your appointment with a licensed professional</p>
 
   <div id="calendar">
     <div class="month">
@@ -209,7 +187,7 @@ Come as you are this is a judgement free zone, we are just happy to see you :)
     <li>31</li>
   </ul>
     </div>
-    <button id="closepopButton" type="button" onclick="closePopUp"> Done </button>
+    <button id="closepopButton" type="button" onclick="closePopUp()"> Done </button>
 
     </div>
   </section>
@@ -256,6 +234,7 @@ Then visit us at our location
 </div>
 
 <section class="api-container" >
+  <h4><span class="primary-text">Mental</span> Health Info</h4>
   <h5 id="title"></h5>  
   <div id="source"></div>
   <button id="getArticles">Click To Get Articles</button>
@@ -305,6 +284,30 @@ Then visit us at our location
   
   <script src="script.js"></script>
   <script src="scriptapi.js" type="module"></script>
+  <script type="text/javascript">
+    src="https://kit.fontawesome.com/cc1a723176.js"
+    crossorigin="anonymous"
+      document.getElementById("test").addEventListener("click", () => {
+          openPopUp()
+      })
+      let popUp = document.getElementById("popUp");
+      function openPopUp(){
+        popUp.classList.add("open-popUp");
+      }
+      function closePopUp(){
+        popUp.classList.remove("open-popUp");
+      }
+       let walkSign = document.getElementById("walkSign");
+      console.log(walkSign);
+      function signUp(){
+        walkSign.classList.add("signUppopUp");
+      }
+      function closesignUp(){
+        walkSign.classList.remove("signUppopUp");
+      }
+      </script>
+  
+  
 </body>
 
 </html>

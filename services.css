@@ -138,13 +138,13 @@ top: 600px;
   border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  color: darkblue;
+  color: white;
   cursor: pointer;
 }
 
 .signUppopUp {
   width: 400px;
-  background: darkblue;
+  background: white;
   border-radius: 6px;
   position: absolute;
   top: 0;
@@ -173,7 +173,7 @@ top: 600px;
   border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  color: darkblue;
+  color: white;
   cursor: pointer;
 }
 
@@ -181,7 +181,7 @@ top: 600px;
   width: 400px;
   background: darkblue;
   border-radius: 6px;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
@@ -189,6 +189,14 @@ top: 600px;
   padding: 0 30px 30px;
   color: white;
   visibility: hidden;
+}
+.popUp p {
+  text-align: center !important;
+  font-size: 1rem !important;
+  padding: 0 !important;
+  margin: 0;
+  padding-right: 100px;
+  width: 80%;
 }
 
 .open-popUp {
@@ -199,14 +207,13 @@ top: 600px;
 }
 
 #calendar {
-  width: 300px;
-  margin-top: -50px;
-  border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  /* border-radius: 50%; */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .popUp h2 {
-  font-size: 38px;
+  font-size: 1.8rem;
   font-weight: 500;
   margin: 30px 0 10px;
 }
@@ -230,11 +237,13 @@ body {
 }
 
 /* Month header */
+
 .month {
   padding: 70px 25px;
-  width: 100%;
+  /* width: 250px; */
   background: #1abc9c;
   text-align: center;
+  margin-top: 1rem;
 }
 
 /* Month list */
@@ -346,7 +355,7 @@ body {
   border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  color: darkblue;
+  color: white;
 }
 
 aside {
@@ -379,13 +388,28 @@ button:hover {
 /* API Styling */
 .api-container {
   text-align: center;
-  height: 20rem;
+
+  height: 32rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  /* padding: 5%; */
+  border-radius: 20px;
+  width: 80vw !important;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+    rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+    rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+.api-container h4 {
+  font-size: 1.5em;
+}
+.api-container h5 {
   padding: 5%;
 }
+
 #getArticles {
   width: 10rem;
   height: 3rem;
@@ -404,7 +428,6 @@ button:hover {
   font-weight: bold;
   background-color: rgb(96, 211, 148);
   border: white;
-  margin-bottom: 1rem;
   color: white;
   cursor: pointer;
 }
@@ -685,5 +708,8 @@ a {
     font-size: 0.8rem;
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+  .popUp p {
+    padding-left: 45px !important;
   }
 }

@@ -34,8 +34,9 @@
   width: 200px;
   margin: 5px;
   color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 15px;
+  border: none;
 }
 
 h1 {
@@ -113,9 +114,13 @@ p {
     height: 150vh;
   }
   .card {
-    height: 15rem;
+    height: 25rem;
   }
   .container {
     height: 130vh;
+  }
+  .image img {
+    height: 14rem;
+    margin-bottom: 1.8rem;
   }
 }

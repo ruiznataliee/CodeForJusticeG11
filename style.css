@@ -97,17 +97,22 @@ body {
 .about-left p {
   padding-top: 5%;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
 }
 .about-right {
+  border-radius: 20px;
+  height: 66vh;
+  width: 70rem;
+  background: url("/images/guy-sun.avif") no-repeat center center/cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   margin: 5% 5%;
 }
 .about-right img {
   height: 80vh;
   width: 45vw;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
   border-radius: 20px;
 }
 
@@ -176,6 +181,12 @@ body {
   .nav-right-side {
     padding: 0;
   }
+  .nav-right-side ul {
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+  }
+
   .navbar ul {
     flex-direction: column;
     width: 100%;
@@ -185,6 +196,7 @@ body {
     width: 100vw;
     display: inline-block;
     border-top: 1px rgb(6, 114, 13) solid;
+    /* margin: 0; */
     padding-top: 1.3rem;
   }
   .about-container {
@@ -211,20 +223,20 @@ body {
     padding: 0 5%;
   }
   .about-content p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     width: fit-content;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
   }
   .about-right {
-    width: 100%;
+    width: 90%;
     height: 40rem;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .about-right img {
     width: 90%;
@@ -246,6 +258,133 @@ body {
     text-align: center;
   }
   .right-side {
-    padding: 0px 0px 20px 0px;
+    padding: 0px;
+  }
+  .box {
+    width: 100vw;
+    flex-direction: column;
+    padding: 0;
+  }
+  #mainSer {
+    width: 100vw;
+    height: 25rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #mainSer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    flex-direction: column;
+  }
+  #mainSer p {
+    width: 80%;
+    font-size: 1.3rem;
+  }
+  #mainImage {
+    height: 15rem;
+    width: 15rem;
+    margin: 0;
+  }
+  aside {
+    height: 18rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 9rem;
+  }
+  #walkImage {
+    height: 25rem;
+    width: 100%;
+    margin: 0;
+  }
+  .alignPic1 {
+    flex-direction: column;
+    margin: 0;
+  }
+  #walkServices {
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+  h4 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  #walkServices p {
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+    /* margin: 0; */
+  }
+  #therapyServices {
+    width: 100vw;
+    height: 14rem;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+  }
+  #therapyServices h4 {
+    margin: 0;
+    text-emphasis: center;
+  }
+  #therapyServices p {
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2.2rem;
+    padding-left: 2rem;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #rockImage {
+    height: 25rem;
+  }
+  #animalServices {
+    width: 100vw;
+    padding: 0;
+    margin-bottom: 1.8rem;
+  }
+  #pugImage {
+    width: 100%;
+    margin: 0;
+  }
+  #animalServices h4 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #animalServices p {
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 30px;
+  }
+  .left-side p {
+    font-size: 1rem;
+  }
+
+  .right-side ul {
+    padding: 0;
+  }
+
+  .api-container {
+    padding: 0;
+    width: 100%;
+    height: 66vh;
+  }
+  #title {
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
