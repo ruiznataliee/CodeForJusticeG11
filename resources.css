@@ -306,4 +306,7 @@ img {
   .resource2 {
     margin-bottom: 30rem;
   }
+  .resource-card {
+    box-shadow: none;
+  }
 }
